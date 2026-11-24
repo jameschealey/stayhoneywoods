@@ -1,0 +1,10 @@
+# Never commit secrets or private notes. The private/ folder holds the steering file.
+.env
+.env.*
+*.pem
+*.key
+private/
+
+# Local machine files
+.DS_Store
+.claude/settings.local.json
